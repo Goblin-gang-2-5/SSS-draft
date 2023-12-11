@@ -1,4 +1,21 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+html * {
+  scrollbar-width: thin;
+  scrollbar-color: #496FDC;
+}
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 12px;
+  width: 3px;
+}
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  background-color: #496FDC;
+}
 .header {
   color: #F5F5F5;
   font-family: Inter;
@@ -45,19 +62,16 @@
   flex-direction: column;
   padding-top: 40px;
   padding-left:30px ;
-   background: #FFF;
-
-}
-.personal_account img{
-  padding-bottom: 20px;
+  background: #FFF;
+  gap: 1.5rem;
 }
 
-.Add-administrator{
-  padding-bottom: 20px;
+.menuItem {
+  display: flex;
+  gap: 0.4em;
+  align-items: center;
 }
-.Map {
-  padding-bottom: 20px;
-}
+
 .border {
   background: #3D68E2;
   color: #F5F5F5;
@@ -66,15 +80,39 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  max-width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 7rem;
-  position: sticky;
   top:0;
   padding-inline: 1rem;
 }
 .main {
-  display: ;
+  display: flex;
+  flex-direction: column;
+  margin-inline: 1rem;
+  background: #FFFFFF;
+  max-width: 100%;
+}
+.mainHeader {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2em;
+  height: 3rem;
+  background: #496FDC;
+  max-width: 100%;
+  padding-inline: 2rem;
+}
+.contentContainer {
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+.personal_account img, span {
+  text-align: center;
+  display:inline-block;
+
+}
+.Check {
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
