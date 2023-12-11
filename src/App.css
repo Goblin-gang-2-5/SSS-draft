@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  color: #F5F5F5;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #496FDC;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  position: sticky;
+  top:0;
+  padding-inline: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  color: #496FDC;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Site-header {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  gap:0.5em;
+}
+.menu {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
+  padding-left:30px ;
+   background: #FFF;
+
+}
+.personal_account img{
+  padding-bottom: 20px;
+}
+
+.Add-administrator{
+  padding-bottom: 20px;
+}
+.Map {
+  padding-bottom: 20px;
+}
+.border {
+  background: #3D68E2;
+  color: #F5F5F5;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 7rem;
+  position: sticky;
+  top:0;
+  padding-inline: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  display: ;
 }
